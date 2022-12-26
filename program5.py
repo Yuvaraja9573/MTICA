@@ -1,17 +1,12 @@
-def primeornot(num):
-    if num<1:
-        return 0
-    if num==1 or num==2 or num==3:
-        return num
-    for i in range(2,num):
-        if num%i==0:
-            return 0
-        return num
-lst=[]
-first=int(input("enter the first number:"))
-last=int(input("enter the last number:"))
-for i in range(first,last+1):
-    if primeornot(i):
-        lst.append(i)
-print(*lst)
-print(len(lst))
+s1='"Hi mom",I said."How are you?"'
+s2='"Hi mom",I said.'"How are you?"
+s3='"Hi mom",I said.'"How are you?"
+s4="""'Hi mom",I said.'"How are you?"'"""
+#s5=""I want to be a lion tamer!"'
+s6="\"Is this a cheese shop?\"\n\t'yes'\n\t\"we have all kinds!\""
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+print(s5)
+print(s6)

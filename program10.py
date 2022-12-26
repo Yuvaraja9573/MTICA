@@ -1,5 +1,7 @@
-def binTodecimal(n):
-    temp=int(n,2)
-    return temp
-inp=input("num:")
-print(binTodecimal(inp))
+'abc'+str(5)
+'abc'*str(5)
+'abc'+5
+'abc'*5
+'abc'+5.0
+'abc'+float(5.0)
+str(3.0)*3
