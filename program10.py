@@ -1,7 +1,8 @@
-'abc'+str(5)
-'abc'*str(5)
-'abc'+5
-'abc'*5
-'abc'+5.0
-'abc'+float(5.0)
-str(3.0)*3
+string=input()
+ans=[]
+for i in string:
+    if i in '0123456789':
+        ans.append(i)
+print(*ans)
+
+print([i for i in string if i in'0123456789'])

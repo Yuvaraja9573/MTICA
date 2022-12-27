@@ -1,6 +1,6 @@
-print(len('Geprge'))
-print(len('Tom'))
-s="""hi
-sis!
-"""
-print(len(s))
+string=input()
+ans=[]
+for i in string:
+    if i in 'AEIOUaeiou':
+        ans.append(i)
+print(*ans)

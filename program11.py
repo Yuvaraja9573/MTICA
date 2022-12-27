@@ -1,5 +1,8 @@
-x=input('enter an integer==>')
-x=x*2
-x=int(x)
-x*=2
-print("x is:",X)
+string=input()
+ans=[]
+for i in string:
+    if i in 'AEIOUaeiou':
+        ans.append(i)
+print(*ans)
+
+print([i for i in string if i in 'AEIOUaeiou'])

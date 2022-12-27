@@ -1,12 +1,14 @@
-s1='"Hi mom",I said."How are you?"'
-s2='"Hi mom",I said.'"How are you?"
-s3='"Hi mom",I said.'"How are you?"
-s4="""'Hi mom",I said.'"How are you?"'"""
-#s5=""I want to be a lion tamer!"'
-s6="\"Is this a cheese shop?\"\n\t'yes'\n\t\"we have all kinds!\""
-print(s1)
-print(s2)
-print(s3)
-print(s4)
-print(s5)
-print(s6)
+print('{:#<30}'.format('Apple'))
+print('{:*>30}'.format('Apple'))
+print('{:^30}'.format("Apple"))
+print('{:*^30}'.format('Apple'))
+
+
+print("int: {0:d}; hex: {0:x}; oct: {0:o};bin: {0:b}".format(42,55))
+print("int: {1:d}; hex: {1:x}; oct: {1:0};bin: {1:b}".format(42,55))
+print('{:,}'.format(1234567890))
+points = 19.0; total = 22
+print('correct answers: {:.2%}'.format(points/total))
+print('correct answers: {:.2}'.format(points/total))
+
+                                              

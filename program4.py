@@ -1,4 +1,8 @@
-s0="*\t*\n**\t**\n***\t***\n"
-s1="I said,\"This is a valid string.\""
-print("s0:",s0)
-print("s1:",s1)
+one=2
+two=1
+three=4
+one+=3*two
+print('one:',one)
+two-=3*one+three
+print('two:',two)
+     

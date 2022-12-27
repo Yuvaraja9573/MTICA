@@ -1,10 +1,13 @@
-'abc' 'def'
-'abc' + 'def'
-'abc' +'def'
-x='abc'
-y='def'
-print(x+y)
-s1='abc'*4
-print(s1)
-s2='abc'*4
-print(s2)
+ans=[]
+for i in range(1,1001):
+    if '6' in str(i):
+        ans.append(i)
+print(ans)
+
+
+ans=[]
+for i in range(900,1001):
+    if '6' in str(i):
+        ans.append(i)
+print(ans)
+    
