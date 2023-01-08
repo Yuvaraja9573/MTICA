@@ -1,0 +1,2 @@
+This line goes to test.txt
+today is th last day of python class
